@@ -18,7 +18,7 @@ export default function Home() {
         <SectionContainer>
           <Skills />
         </SectionContainer>
-        <SectionContainer>right Bottom</SectionContainer>
+        <SectionContainer>Hi There</SectionContainer>
       </div>
     </div>
   );
