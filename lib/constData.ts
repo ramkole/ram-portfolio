@@ -1,0 +1,5 @@
+export const frontEndStack = ["HTML", "JavaScript (ES6+/ES8)", "React Js", "Next Js", "Typescript", "jQuery", "XML", "PHP", "JSX", "AJAX", "DOM", "ESLint", 'Farmer Motion']
+export const styleStack = ["CSS", "SASS", "Bootstrap", "Styled Components", "Tailwind CSS -(Flexbox, Grid)", "WordPress", "Figma", "Material UI", "PrimeReact UI", "Kendo UI", "Chakra UI"] 
+export const reactTooling = ["Redux-Saga", "React Hook Form", "Formik", "Yup", "Zod", "React Query", "Webpack", "Zustand", "Babel", "RESTful APIs", "JSON", "D3/Highcharts"] 
+export const testingStack = ["Jest", "React Testing Library", "Unit testing", "Snapshot testing", "Integration testing"] 
+export const versionTooling = ['Git/Github', 'TSF']
