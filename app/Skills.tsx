@@ -11,14 +11,14 @@ import SkillContainer from "./SkillContainer";
 
 export default function Skills() {
   return (
-    <div className="relative">
-      <section className="text-center m-5hidden absolute">
-        <section className="text-2xl font-medium ">
-          <h2 className="text-3xl font-medium capitalize  text-center border border-dotted border-orange-400">
+    <div className=" border border-dotted border-orange-400">
+      <section className="text-center m-5">
+        <section className="text-2xl font-medium">
+          <h2 className="text-3xl font-medium capitalize  text-center">
             Tech that i Worked On
           </h2>
         </section>
-        <div className="items-center overflow-scroll overflow-x-hidden h-[27rem] ">
+        <div className="items-center overflow-scroll overflow-x-hidden">
           <SkillContainer
             skillTitle="Front End Stack"
             skillData={frontEndStack}
