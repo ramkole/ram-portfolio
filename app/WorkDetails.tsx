@@ -16,7 +16,10 @@ const WorkDetails = ({ workDataList }: Props) => {
     <>
       <div className="grid lg:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 ">
         {workDataList.map((data) => (
-          <section className="items-center border border-dotted border-orange-400 m-2">
+          <section
+            key={data.title}
+            className="items-center border border-dotted border-orange-400 m-2"
+          >
             <h2 className="text-2xl font-medium capitalize  text-center">
               {data.title}
             </h2>
