@@ -12,15 +12,15 @@ export default function Home() {
           <HaderHero />
         </SectionContainer>
         <SectionContainer>
-          <Me />
+          <Skills />
         </SectionContainer>
       </div>
       <div className="grid lg:grid-rows-2 md:grid-rows-1 sm:grid-rows-1 w-full">
         <SectionContainer>
-          <Skills />
+          <Experience />
         </SectionContainer>
         <SectionContainer>
-          <Experience />
+          <Me />
         </SectionContainer>
       </div>
     </div>

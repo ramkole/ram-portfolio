@@ -14,8 +14,8 @@ const HaderHero = () => {
         <Image
           className="border-8 border-opacity-50 border-orange-400"
           src="https://avatars.githubusercontent.com/u/56620810?v=4"
-          width={300}
-          height={300}
+          width={250}
+          height={250}
           alt="hero"
         />
         <div className="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1 ">
