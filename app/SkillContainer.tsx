@@ -12,10 +12,10 @@ const SkillContainer = ({ skillData, skillTitle }: Props) => {
         {skillTitle}
       </h2>
 
-      <ul className="flex flex-wrap justify-center text-xs gap-2 text-gray-800 p-3 ">
+      <ul className="flex flex-wrap justify-center text-xs gap-2 p-3 text-zinc-950">
         {skillData.map((skill, index) => (
           <li
-            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 text-zinc-950"
+            className="bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
             key={index}
           >
             {skill}

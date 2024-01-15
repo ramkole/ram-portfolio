@@ -18,7 +18,7 @@ export default function Skills() {
             Tech that i Worked On
           </h2>
         </section>
-        <div className="items-center overflow-scroll overflow-x-hidden">
+        <div className="items-center overflow-scroll overflow-x-hidden h-[30rem]">
           <SkillContainer
             skillTitle="Front End Stack"
             skillData={frontEndStack}
