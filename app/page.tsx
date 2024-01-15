@@ -1,3 +1,4 @@
+import Experience from "./Experience";
 import HaderHero from "./HaderHero";
 import Me from "./Me";
 import SectionContainer from "./SectionContainer";
@@ -18,7 +19,9 @@ export default function Home() {
         <SectionContainer>
           <Skills />
         </SectionContainer>
-        <SectionContainer>Hi There</SectionContainer>
+        <SectionContainer>
+          <Experience />
+        </SectionContainer>
       </div>
     </div>
   );
