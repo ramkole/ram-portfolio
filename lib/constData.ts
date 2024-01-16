@@ -24,3 +24,18 @@ export const workData = [
         description: "Real Estate Domeina - developed SME and SPA internal domain to sell and resell houses / property."
     }
 ]
+
+export const links = [
+    {
+      label: "Dashbaord",
+      href: "/",
+    },
+    {
+      label: "Add QA",
+      href: "/addqa",
+    },
+    {
+      label: "Portfolio",
+      href: "/Portfolio",
+    },
+  ];
